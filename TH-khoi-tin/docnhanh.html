@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang tin tức</title>
+    <style>
+        body {
+            width: 1000px;
+            margin: auto;
+        }
+
+        .title a {
+            color: dodgerblue;
+            text-decoration: none;
+        }
+
+        .title a:hover {
+            text-decoration: underline;
+        }
+
+        .title {
+            border-left: 6px solid dodgerblue;
+            padding-left: 8px;
+            font-size: 20px;
+        }
+
+        .img-show {
+            width: 80px;
+        }
+
+        table > tbody > tr > td > p {
+            font-size: 13px;
+            margin: 0;
+            font-weight: bold;
+            color: #004f8b;
+            font-family: arial;
+        }
+
+        table > tbody > tr > td:nth-child(2) > table > tbody > tr {
+            border-bottom: 1px dashed black;
+        }
+        table > tbody > tr > td:nth-child(2) > table > tbody > tr:last-child
+        {
+            border-bottom: none;
+        }
+        table > tbody > tr > td:nth-child(2) > table > tbody > tr > td{
+            padding-top: 10px;
+        }
+        table > tbody > tr > td:nth-child(2) > table > tbody > tr:first-child > td{
+            padding-top: 0;
+        }
+        td {
+            text-align: left; /* Căn nội dung theo chiều ngang về phía trái */
+            vertical-align: top; /* Căn nội dung theo chiều dọc lên phía trên */
+        }
+    </style>
+</head>
+
+<body>
+<h2 class="title">
+    <a href="#">
+        Xã hội
+    </a>
+</h2>
+
+<table>
+    <tr>
+        <td style="vertical-align: top; padding-right: 15px;">
+            <div style="position: relative">
+                <img src="img/bien-dong.jpg" alt="Hình ảnh bão" width="340" height="310">
+                <p style="position: absolute;bottom: 4px;background-color: rgba(0, 0, 0, 0.3);color: white;margin: 0;
+                         padding: 8px 16px;"><strong>Miền Bắc lại mưa lớn cục bộ, Biển Đông khả năng có 1-2 cơn bão vào
+                    cuối tháng 9</strong></p>
+            </div>
+        </td>
+        <td style="width: 340px;font-size: 14px;">
+            <table style="border-collapse: collapse;">
+                <tr>
+                    <td>
+                        <p>Vụ sập nhà điều hành thủy điện ở Lào Cai: Tìm thấy thêm 5 thi thể</p>
+                    </td>
+                    <td>
+                        <img class="img-show" src="img/sap-nha-dieu-hanh.jpg" alt="Vụ sập nhà">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Con trai nạn nhân đầu tiên được tìm thấy vụ sập cầu Phong Châu: 'Mẹ đã được hỏa táng,
+                            giờ đợi tin bố nữa'</p>
+                    </td>
+                    <td>
+                        <img class="img-show" src="img/sap-cau-phong-chau.jpg" alt="Tai nạn nhân">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Bão Bebinca sẽ không ảnh hưởng đến Việt Nam</p>
+                    </td>
+                    <td>
+                        <img class="img-show" src="img/bao-bebinca.jpg" alt="Bão Bebinca">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Số người chết và mất tích ở Làng Nú giảm 29 trường hợp</p>
+                    </td>
+                    <td>
+                        <img class="img-show" src="img/so-nguoi-mat-tich-lang-nu.jpg" alt="Số người chết">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</div>
+
+</body>
+
+</html>
