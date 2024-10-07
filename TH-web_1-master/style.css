@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    background-color: #223671;
+}
+
+.logo-1 {
+    width: 30%;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    color:white ;
+}
+
+header ul.menu {
+    display: flex;
+    list-style: none;
+}
+
+header ul.menu>li {
+    padding: 12px 20px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -18,7 +46,7 @@ body {
 .title {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #d35400;
+    color: black;
 }
 
 .news-1-1 {
