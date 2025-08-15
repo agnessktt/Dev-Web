@@ -1,5 +1,3 @@
-# agness_kt.github.io
+# Học phần: Xây dựng ứng dụng web
 
-First Repo
-
-# Update content of Readme
+Hello! Mình là Kiều Trang đây. 
